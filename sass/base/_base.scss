@@ -1,0 +1,19 @@
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* This will inerit the box-sizing prooperty devlared in the body. We are doing a forced inherit in here */
+}
+
+html {
+    //This defines what 1rem is
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+}
